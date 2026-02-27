@@ -1,0 +1,13 @@
+{
+  "best_val_acc": 0.38413273842721696,
+  "final_val_acc": 0.2632459564974902,
+  "train_loss_last": 2.115547029868416,
+  "val_loss_last": 2.191549301147461,
+  "epochs": 20,
+  "hidden_dims": [
+    256,
+    128
+  ],
+  "activation": "relu",
+  "wandb_run_url": "https://wandb.ai/court_lopez-university-of-louisiana-monroe/hand-sign-predictor/runs/xfu09mm0"
+}
