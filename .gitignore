@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+dataset/
+models/
+*.joblib
+*.pkl
+*.h5
+*.keras
+*.pt
+
+wandb/
