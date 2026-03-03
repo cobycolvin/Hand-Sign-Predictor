@@ -1,0 +1,13 @@
+{
+  "best_val_acc": 0.783324037925265,
+  "final_val_acc": 0.7803959843837145,
+  "train_loss_last": 0.2064866060087847,
+  "val_loss_last": 0.8607087731361389,
+  "epochs": 20,
+  "hidden_dims": [
+    256,
+    128
+  ],
+  "activation": "relu",
+  "wandb_run_url": null
+}

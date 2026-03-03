@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from pathlib import Path
+from typing import BinaryIO
 from typing import Any
 
 import joblib
@@ -21,8 +22,8 @@ def preprocess_uploaded_image(uploaded_image: Image.Image) -> np.ndarray:
     return arr
 
 
-def load_classical_artifact(model_path: str | Path) -> dict[str, Any]:
-    return joblib.load(model_path)
+def load_classical_artifact(model_source: str | Path | BinaryIO) -> dict[str, Any]:
+    return joblib.load(model_source)
 
 
 def predict_classical(model_artifact: dict[str, Any], vector: np.ndarray) -> tuple[str, float]:
@@ -34,8 +35,8 @@ def predict_classical(model_artifact: dict[str, Any], vector: np.ndarray) -> tup
     return label_to_letter(label), float(probs[idx])
 
 
-def load_neural_checkpoint(model_path: str | Path) -> dict[str, Any]:
-    checkpoint = torch.load(model_path, map_location="cpu")
+def load_neural_checkpoint(model_source: str | Path | BinaryIO) -> dict[str, Any]:
+    checkpoint = torch.load(model_source, map_location="cpu")
     model = SignMLP(
         input_dim=784,
         hidden_dims=checkpoint["hidden_dims"],
