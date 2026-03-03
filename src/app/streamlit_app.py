@@ -65,7 +65,7 @@ else:
     # --- Preprocessing controls ---
     st.subheader("Preprocessing (tune first, then click Predict)")
     mirror = st.checkbox("Mirror (flip left/right)", value=False)
-    auto_invert = st.checkbox("Auto-invert (match MNIST style)", value=True)
+    auto_invert = st.checkbox("Auto-invert (match MNIST style)", value=False)
     auto_crop = st.checkbox("Auto-crop hand", value=True)
     threshold = st.slider("Crop threshold", 0, 255, 30)
 
