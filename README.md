@@ -158,7 +158,8 @@ streamlit run src/app/streamlit_app.py
 App capabilities:
 
 - Upload PNG/JPG/JPEG hand-sign image.
-- Select model type (classical vs neural) and model path.
+- Select model type (classical vs neural).
+- Load model from local path or upload model file in app.
 - Get predicted letter and confidence score.
 
 Default paths expected by app:

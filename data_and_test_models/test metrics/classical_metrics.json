@@ -1,0 +1,6 @@
+{
+  "accuracy": 0.8250139431121026,
+  "model_type": "rf",
+  "train_samples": 27455,
+  "test_samples": 7172
+}
