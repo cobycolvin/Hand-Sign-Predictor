@@ -9,4 +9,25 @@ models/
 *.keras
 *.pt
 
+data/raw/*.csv
+data/raw/app_test_images*/
+data/raw/custom_images/
+models/
+reports/
+reports/figures/
+*.png
 wandb/
+
+# datasets / generated test images
+data/raw/*.csv
+data/raw/app_test_images*/
+data/raw/app_test_images_28/
+
+# generated outputs
+reports/figures/
+models/
+
+# venv + python junk
+.venv/
+__pycache__/
+*.pyc
