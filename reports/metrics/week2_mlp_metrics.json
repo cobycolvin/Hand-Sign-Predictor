@@ -1,13 +1,14 @@
 {
-  "best_val_acc": 0.38413273842721696,
-  "final_val_acc": 0.2632459564974902,
-  "train_loss_last": 2.115547029868416,
-  "val_loss_last": 2.191549301147461,
-  "epochs": 20,
+  "best_val_acc": 0.8377021751254881,
+  "final_val_acc": 0.8377021751254881,
+  "train_loss_last": 0.09973282157768344,
+  "val_loss_last": 0.7112092971801758,
+  "epochs": 15,
   "hidden_dims": [
+    512,
     256,
     128
   ],
-  "activation": "relu",
-  "wandb_run_url": "https://wandb.ai/court_lopez-university-of-louisiana-monroe/hand-sign-predictor/runs/xfu09mm0"
+  "activation": "gelu",
+  "wandb_run_url": "https://wandb.ai/cobycolvin1-/hand-sign-predictor/runs/uv7wv0cq"
 }

@@ -1,0 +1,6 @@
+{
+  "accuracy": 0.8502509760178472,
+  "model_type": "svm",
+  "train_samples": 27455,
+  "test_samples": 7172
+}
