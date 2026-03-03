@@ -1,12 +1,27 @@
 __pycache__/
 *.py[cod]
 .venv/
-dataset/
-models/
-*.joblib
 *.pkl
 *.h5
 *.keras
-*.pt
 
+
+
+reports/
+reports/figures/
+*.png
 wandb/
+
+
+
+# generated outputs
+reports/figures/
+
+# venv + python junk
+.venv/
+__pycache__/
+*.pyc
+
+# model artifacts to keep in git
+!*.pt
+!*.joblib
